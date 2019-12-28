@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -pedantic -g -lm
+obj = 
+
+a.out: $(obj)
+	$(CC) $(CFLAGS) $(obj) -o a.out
+
+.PHONY: clean
+clean:
+	-rm $(obj) *~
