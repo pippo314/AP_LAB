@@ -1,0 +1,3 @@
+#DOMANDE SU MODULARITA' E ADT
+1. La definizione di costanti da utilizzare nelle funzioni del .c va fatta nel .h?
+2. Come iterare i campi di una struct omogenea? (eg. stat_t es2L9)
